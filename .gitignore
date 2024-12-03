@@ -1,0 +1,41 @@
+# Go build artifacts
+/bin/
+/pkg/
+/*.exe
+/*.dll
+/*.so
+/*.dylib
+/*.test
+
+# Dependency directories
+/vendor/
+
+# IDE/editor specific files
+.vscode/
+.idea/
+*.swp
+
+# Log files
+*.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Environment/configuration files
+.env
+*.local
+
+# SQLite database file
+*.db
+*.sqlite3
+
+# Cache or temporary files
+/tmp/
+*.out
+
+# Git specific files
+!.gitignore
+
+# Docker-specific files (ถ้ามีใช้ Docker)
+docker-compose.override.yml
